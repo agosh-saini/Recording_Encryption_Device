@@ -351,7 +351,6 @@ Script setup is now automatically handled by `setup/setup_sudo.sh`. The script w
 
 - **LED Off**: System ready, not recording
 - **LED Slow Blink (1s)**: Recording in progress
-- **LED Fast Blink (0.2s)**: Encrypting video
 - **LED Solid**: Error state
 
 ## Sudo Configuration
@@ -686,7 +685,7 @@ The service file is located at:
 - **Reboot required** after camera interface setup
 - **SSH public key** will be displayed - copy it to other machines
 - **Service runs as root** for GPIO access
-- **LED indicators**: Off=ready, Slow blink=recording, Fast blink=encrypting
+- **LED indicators**: Off=ready, Slow blink=recording
 - **Button debounce**: 2-second cooldown between recordings
 
 ## Support
